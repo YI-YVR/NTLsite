@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "css/query.css">
+  <title>Query Page</title>
+</head>
+<body>
+  <header> 
+    <ul>
+      <h1>貨物引取・配車マッチングサービス</h1>
+      <li><h2>引取希望日時</h2>
+      <input type ="datetime-local"></li>
+      <li><h2>引取場所</h2>
+      <input type ="number" min ="0" placeholder="郵便番号">
+      <input type ="text" placeholder="住所"></li>
+      <li><h2>配送場所</h2>
+      <input type ="number" min ="0" placeholder="郵便番号">
+      <input type ="text" placeholder="住所"></li>
+      <li><h2>搬入希望日時</h2>
+      <input type ="datetime-local"></li>
+      <li><h2>貨物ボリューム</h2>
+        <div class = "volume">
+          <input type ="number" min ="0">M3
+          <input type ="number" min ="0">KGS
+          <input type ="number" min ="0" >個
+        </div>
+      </li>
+      <textarea type = "text" placeholder="(貨物サイズ/荷姿)サイズはLWH:○x○x○cmの形で記載してください。"></textarea>
+      <li><h2>BOOKING NUMBER</h2>
+      <input type ="number" min ="0" placeholder="7桁のBOOKING NOを入力してください。"></li>
+      <li><h2>ケースマーク</h2>
+      </li>
+      <textarea type = "text" placeholder="貨物に添付されているマークを記載してください。"></textarea>
+      <li><h2>その他</h2>
+      </li>
+      <textarea type = "text" placeholder="その他、何か特記事項があればご記入ください。"></textarea>
+      <li><input type ="submit"></li>
+    </ul>
+  </header>
+  <footer>Copyright © Naigai Trans Line Ltd. All rights reserved.</footer>
+</body>
+</html>
